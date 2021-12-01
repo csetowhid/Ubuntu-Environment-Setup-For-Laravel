@@ -1,4 +1,4 @@
-# Ubuntu Eenvironment Setup For laravel
+# Ubuntu Environment Setup For Laravel
 
 
 Before Running Any Command You Need To Run
