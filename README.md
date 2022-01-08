@@ -161,3 +161,85 @@ sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node
 ### Link
 - [Visit Link](https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
 
+# oh-my-zsh
+
+### Install
+
+```
+sudo apt install zsh
+```
+
+Make default shell
+
+```
+chsh -s $(which zsh)
+```
+
+Install
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Install PowerLeve10K theme
+
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+Download Plugins for autosuggestion and syntax highlighting
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+Now edit `~/.zshrc` file to use the PowerLeve10K theme, Awesome
+
+```
+snap install micro --classic
+```
+
+```
+micro ~/.zshrc
+```
+
+Find the `ZSH_THME` and replace it with
+
+```
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+Now we will add plugins\
+`plugins=(git)`
+
+```
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+Save And Exit. Then Set The Terminal Design
+
+### Link
+
+- [Make your terminal beautiful and fast with ZSH shell and PowerLevel10K](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb)
+
+### Install Meslo Nerd Font
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+Change Font From Terminal Preferences To
+- MesloLGS NF Regular 
+### Uninstall
+
+`.oh-my-zsh`\
+ `ls`\
+ `tools`\
+ `ls`\
+ `sh uninstall.sh`\
+ `y`
+
+### Link
+
+- [Uninstall Oh My Zsh from Kali Linux](https://www.youtube.com/watch?v=L1gRxcykSb8)
