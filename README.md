@@ -290,3 +290,13 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 sudo docker run hello-world
 ```
+
+### Install Docker Compose on Linux systems
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+### Test the installation
+```
+docker-compose --version
+```
