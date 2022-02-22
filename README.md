@@ -149,13 +149,10 @@ https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 ### Update
 
 ```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
 sudo n latest
-```
-
-### Fix PATH:
-
-```
-sudo apt-get install --reinstall nodejs-legacy     # fix /usr/bin/node
 ```
 
 ### Link
