@@ -77,6 +77,7 @@ test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.conf
 
 - [Cara Install Laravel Valet di Linux](https://www.susantokun.com/cara-install-laravel-valet-di-linux/)
 - [Valet Linux Faq](https://cpriego.github.io/valet-linux/faq)
+- [8.1-fpm](https://www.cloudbooklet.com/how-to-install-php-fpm-with-apache-on-ubuntu-20-04)
 
 # Mysql-Server
 
