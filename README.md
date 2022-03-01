@@ -304,10 +304,6 @@ docker-compose --version
 ```
 valet use 7.4 
 ```
-or 
-```
-valet use php@7.4
-```
 
 ## Extension
 ```
