@@ -313,3 +313,24 @@ valet use php@7.4
 ```
 sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y
 ```
+
+## PHP NEW Command
+
+```
+sudo apt install php8.1-fpm
+sudo service php8.1-fpm status
+sudo apt install mysql-server -y
+sudo apt install phpmyadmin
+valet use 7.4
+sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y
+valet restart
+valet use 8.1
+valet use 8.0
+composer update
+valet restart
+composer global upgrade
+valet restart
+valet use 8.0
+php --version
+valet restart
+```
