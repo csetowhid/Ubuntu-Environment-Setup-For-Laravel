@@ -54,6 +54,12 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 - [Visit Here](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-20-04)
 
+
+### UnInstall
+```
+rm -r /usr/local/bin/composer
+```
+
 # Valet
 
 ### Install
