@@ -17,11 +17,8 @@ sudo apt install curl
 
 # PHP
 
-### Install
+### Install With Nginx
 
-```
-sudo apt install php-fpm
-```
 ### Install 7.4
 
 ```
@@ -32,6 +29,17 @@ To check the status of the service, run
 
 ```
 systemctl status php7.4-fpm
+```
+
+### Install 8.0
+```
+sudo apt install php8.0-fpm
+```
+
+To check the status of the service, run
+
+```
+systemctl status php8.0-fpm
 ```
 
 ### Link
@@ -158,7 +166,13 @@ https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 ```
 sudo npm cache clean -f
 sudo npm install -g n
+```
+### Stable Version
+```
 sudo n stable
+```
+### Latest Version
+```
 sudo n latest
 ```
 
