@@ -36,6 +36,7 @@ systemctl status php7.4-fpm
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 ```
+```
 sudo apt install php8.0-fpm
 ```
 
