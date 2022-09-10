@@ -97,6 +97,21 @@ test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.conf
 - [Valet Linux Faq](https://cpriego.github.io/valet-linux/faq)
 - [8.1-fpm](https://www.cloudbooklet.com/how-to-install-php-fpm-with-apache-on-ubuntu-20-04)
 
+
+# Valet Linux Plus
+Before installing valet-linux-plus, install mysql-server, php extensions, redis-server.
+
+### Install
+
+```
+composer global require genesisweb/valet-linux-plus 
+```
+```
+sudo apt-get install libnss3-tools jq xsel
+```
+```
+test -d ~/.composer && bash ~/.composer/vendor/bin/valet install || bash ~/.config/composer/vendor/bin/valet install
+```
 # Mysql-Server
 
 ### Install
