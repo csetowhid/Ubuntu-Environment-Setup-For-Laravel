@@ -169,7 +169,7 @@ ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
 ### Install
 
 ```
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
 ```
