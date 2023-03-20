@@ -198,6 +198,14 @@ sudo n latest
 ### Link
 - [Visit Link](https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
 
+
+### Downgrade NPM
+```
+npm install -g npm@8.19.2
+```
+### Link
+- [Visit Link](https://www.devopsschool.com/blog/how-to-downgrade-npm-version)
+
 # oh-my-zsh
 
 ### Install
