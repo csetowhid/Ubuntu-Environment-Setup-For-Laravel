@@ -206,6 +206,11 @@ npm install -g npm@8.19.2
 ### Link
 - [Visit Link](https://www.devopsschool.com/blog/how-to-downgrade-npm-version)
 
+### Install PNPM
+
+```
+sudo npm install -g pnpm
+```
 # oh-my-zsh
 
 ### Install
